@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "build": "tsc && zip merge_all_windows.zip --compression-method deflate --wild-stop-dirs --recurse-paths . -i@publish.txt"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/chrome": "0.0.136"
+  }
+}

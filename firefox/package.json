@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "build": "npx web-ext build --config 'web-ext-config.js' --overwrite-dest --artifacts-dir '.'"
+  },
+  "devDependencies": {
+    "@types/chrome": "0.0.136"
+  }
+}

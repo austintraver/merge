@@ -1,0 +1,24 @@
+{
+	"name": "Merge All Windows",
+	"version": "0.1.0",
+	"description": "Merge windows into the active one",
+	"homepage_url": "https://github.com/austintraver/merge",
+	"manifest_version": 2,
+	"minimum_chrome_version": "61",
+	"icons": {
+		"128": "icon@128.png"
+	},
+	"permissions": [
+		"tabs"
+	],
+	"background": {
+		"persistent": false,
+		"scripts": [
+			"../background.js"
+		]
+	},
+	"browser_action": {
+		"default_title": "Merge All Windows",
+		"default_icon": "icon@128.png"
+	}
+}

@@ -1,0 +1,24 @@
+{
+  "name": "merge",
+  "version": "0.1.0",
+  "description": "Merge windows into the active one",
+  "main": "background.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/austintraver/merge.git"
+  },
+  "scripts": {
+    "build:firefox": "npm --prefix firefox run build",
+    "build:chrome": "npm --prefix chrome run build"
+  },
+  "author": "Austin Traver <support@austin.jp> (https://github.com/austintraver",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/austintraver/merge/issues"
+  },
+  "homepage": "https://github.com/austintraver/merge",
+  "devDependencies": {
+    "@types/chrome": "0.0.136",
+    "typescript": "^4.2.4"
+  }
+}

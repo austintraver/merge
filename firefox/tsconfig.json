@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+	"module": "ESNext",
+	"target": "ESNext",
+	"lib": [
+	  "ESNext",
+	  "DOM"
+	],
+	"sourceMap": true,
+	"moduleResolution": "Node",
+	"strict": true,
+	"rootDir": ".",
+	"outDir": ".",
+	"typeRoots": [
+	  "node_modules/@types"
+	]
+  },
+  "exclude": [
+	"node_modules",
+	".idea",
+	"*.zip"
+  ],
+}

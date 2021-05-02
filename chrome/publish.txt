@@ -1,0 +1,6 @@
+manifest.json
+*.css
+*.js
+*.html
+*.png
+!node_modules

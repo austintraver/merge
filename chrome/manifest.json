@@ -1,0 +1,24 @@
+{
+  "version": "3",
+  "manifest_version": 2,
+  "minimum_chrome_version": "80",
+  "name": "Merge All Windows",
+  "author": "Austin Traver",
+  "description": "Addon to replicate the Safari 'Merge All Windows' menu command",
+  "icons": {
+	"128": "icon@128.png"
+  },
+  "permissions": [
+	"tabs"
+  ],
+  "browser_action": {
+	"default_title": "Merge All Windows",
+	"default_icon": "icon@128.png"
+  },
+  "background": {
+	"persistent": false,
+	"scripts": [
+	  "background.js"
+	]
+  }
+}
