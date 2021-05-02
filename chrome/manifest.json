@@ -1,6 +1,6 @@
 {
-  "version": "3",
   "manifest_version": 2,
+  "version": "0.1.0",
   "minimum_chrome_version": "80",
   "name": "Merge All Windows",
   "author": "Austin Traver",

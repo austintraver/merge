@@ -2,9 +2,9 @@ module.exports = {
 
   // /* Global options: */
   // verbose: true,
-  artifactsDir: "firefox",
+  artifactsDir: ".",
   ignoreFiles: [
-      "build.sh",
+      // "build.sh",
   ],
   /* Command options: */
   build: {
