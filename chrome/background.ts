@@ -1,7 +1,4 @@
 
-
-'use strict';
-
 // @ts-ignore
 const promisify = (fn, ...args) => new Promise(resolve => fn(...args, resolve));
 
@@ -35,5 +32,4 @@ const mergeWindows = async () => {
 		}
 	}
 }
-
 chrome.browserAction.onClicked.addListener(mergeWindows);
