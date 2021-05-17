@@ -1,6 +1,6 @@
 {
 	"name": "Merge All Windows",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"description": "Merge windows into the active one",
 	"homepage_url": "https://github.com/austintraver/merge",
 	"manifest_version": 2,
@@ -11,6 +11,14 @@
 	"permissions": [
 		"tabs"
 	],
+	"commands": {
+		"_execute_browser_action": {
+			"suggested_key": {
+				"default": "Ctrl+Shift+K",
+				"mac": "MacCtrl+Shift+K"
+			}
+		}
+	},
 	"background": {
 		"persistent": false,
 		"scripts": [
